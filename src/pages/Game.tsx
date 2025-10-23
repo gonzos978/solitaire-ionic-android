@@ -71,13 +71,13 @@ export default function GamePage() {
                 case "SHOW_BANNER":
                     // handle coins
                     console.log("Coins:", payload.coins);
-                    showBanner("ca-app-pub-9275591324607728/4142341510");
+                    showBanner("ca-app-pub-9275591324607728/2665895664");
                     break;
                 case "HIDE_BANNER":
                     hideBanner();
                     break;
                 case "SHOW_REWARD_VIDEO":
-                    showRewarded("ca-app-pub-9275591324607728/9763662849", (reward) => {
+                    showRewarded("ca-app-pub-9275591324607728/2624774895", (reward) => {
 
                         console.log("🎁 Reward callback received:", reward);
                         //eventBus.emit("FOO", reward)
