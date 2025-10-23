@@ -87,7 +87,7 @@ export async function showRewarded(adId?: string, callback?: (reward: any) => vo
 
     const options: RewardAdOptions = {
         adId: adId || 'ca-app-pub-3940256099942544/5224354917',
-         isTesting: true
+         isTesting: false
         // npa: true
         // immersiveMode: true
         // ssv: {
