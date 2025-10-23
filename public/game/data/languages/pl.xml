@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+
+	<labels>
+		<label id="scoreLabel">Wynik</label>
+		<label id="timeLabel">Czas</label>
+		<label id="movesLabel">Ruchy</label>
+		<label id="quitGameLabel">ZAKOŃCZYĆ GRĘ?</label>
+		<label id="infoGameLabel">INFO</label>
+		<label id="buyCoinsLabel">KUP KARTĘ</label>
+		<label id="buyCoinsInfo1">MASZ {N} MONET</label>
+		<label id="buyCoinsInfo2">JEDNA KARTA KOSZTUJE {N} MONET</label>
+		<label id="buyHintsLabel">KUP PODPOWIEDŹ</label>
+		<label id="buyHintsInfo">JEDNA PODPOWIEDŹ KOSZTUJE {N} MONET</label>
+		<label id="alertLabel">ALERT</label>
+		<label id="settingsLabel">Ustawienia</label>
+		<label id="soundLabel">Dźwięk</label>
+		<label id="themesLabel">Motywy</label>
+		<label id="langLabel">Język</label>
+		<label id="helpLabel">Pomoc</label>
+		<label id="setLabel">Zestaw</label>
+		<label id="backgroundLabel">TŁA</label>
+		<label id="cardsLabel">KARTY</label>
+	</labels>
+
+	<help>
+		<item id="help_1">Kliknij kartę, aby zmienić kartę.</item>
+		<item id="help_2">Kliknij kartę w dolnym stosie, aby przenieść ją na wybrane miejsce.</item>
+		<item id="help_3">Jeśli odkryjesz wszystkie karty, rozpocznie się automatyczna gra.</item>
+		<item id="help_4">Użyj przycisku cofnij, aby cofnąć ostatni ruch.</item>
+		<item id="help_5">Możesz przeciągać karty między stosami tableau.</item>
+		<item id="help_6">Kliknij kartę, aby automatycznie przenieść ją do fundamentu.</item>
+		<item id="help_7">Wygranie wszystkich stosów fundamentu kończy grę.</item>
+		<item id="help_8">Użyj podpowiedzi (hints), aby zobaczyć możliwe ruchy.</item>
+		<item id="help_9">Przetasuj talię lub uruchom grę ponownie, jeśli utkniesz.</item>
+		<item id="help_10">Sprawdź wynik i licznik czasu u góry ekranu.</item>
+		<item id="help_11">Karty w fundamencie muszą być ułożone według koloru od Asa do Króla.</item>
+		<item id="help_12">Stosy tableau można budować w kolejności malejącej i naprzemiennych kolorach.</item>
+	</help>
+
+	<messages>
+		<msg id="qitPanelTxt">Czy na pewno chcesz wyjść z gry?</msg>
+		<msg id="noCoinsTxt">Nie masz wystarczająco monet.</msg>
+		<msg id="rewardMsg">Gratulacje!{NL}Otrzymujesz {N} monet.</msg>
+		<msg id="offlineTxt">Jesteś w trybie offline i nie możesz kupować kart ani podpowiedzi.</msg>
+		<msg id="offlineMode">Tryb offline włączony. Możesz grać, ale postęp nie zostanie zapisany, dopóki nie będziesz online.</msg>
+	</messages>
+
+
+
+	<end_labels>
+		<label id="endMoves">Ruchy</label>
+		<label id="endTime">Czas</label>
+		<label id="endScore">Wynik</label>
+		<label id="endHiScore">Rekord</label>
+	</end_labels>
+
+	<buttons>
+		<button id="startBttLabel">START</button>
+		<button id="rewardBttLabel">CODZIENNA NAGRODA</button>
+		<button id="newBttLabel">GRAJ</button>
+		<button id="homeBttLabel">STRONA GŁÓWNA</button>
+		<button id="buyBttLabel">KUP</button>
+		<button id="quitBttLabel">WYJŚCIE</button>
+		<button id="yesBttLabel">TAK</button>
+		<button id="noBttLabel">NIE</button>
+		<button id="okBttLabel">OK</button>
+	</buttons>
+
+</data>

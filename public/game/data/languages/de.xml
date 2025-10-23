@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+
+	<labels>
+		<label id="scoreLabel">Punkte</label>
+		<label id="timeLabel">Zeit</label>
+		<label id="movesLabel">Züge</label>
+		<label id="quitGameLabel">SPIEL BEENDEN?</label>
+		<label id="infoGameLabel">INFO</label>
+		<label id="buyCoinsLabel">KARTE KAUFEN</label>
+		<label id="buyCoinsInfo1">DU HAST {N} MÜNZEN</label>
+		<label id="buyCoinsInfo2">EINE KARTE KOSTET {N} MÜNZEN</label>
+		<label id="buyHintsLabel">HINWEIS KAUFEN</label>
+		<label id="buyHintsInfo">EIN HINWEIS KOSTET {N} MÜNZEN</label>
+		<label id="alertLabel">ALARM</label>
+		<label id="settingsLabel">Einstellungen</label>
+		<label id="soundLabel">Ton</label>
+		<label id="themesLabel">Themen</label>
+		<label id="langLabel">Sprache</label>
+		<label id="helpLabel">Hilfe</label>
+		<label id="setLabel">Satz</label>
+		<label id="backgroundLabel">HINTERGRÜNDE</label>
+		<label id="cardsLabel">KARTEN</label>
+	</labels>
+
+	<help>
+		<item id="help_1">Klicken Sie auf die Karte, um die Karte zu wechseln.</item>
+		<item id="help_2">Klicken Sie auf die Karte im unteren Stapel, um sie an die gewünschte Stelle zu verschieben.</item>
+		<item id="help_3">Wenn Sie alle Karten aufdecken, startet die automatische Spielsteuerung.</item>
+		<item id="help_4">Verwenden Sie die Rückgängig-Schaltfläche, um den letzten Zug rückgängig zu machen.</item>
+		<item id="help_5">Sie können Karten zwischen den Tableau-Stapeln ziehen.</item>
+		<item id="help_6">Klicken Sie auf eine Karte, um sie automatisch ins Fundament zu legen.</item>
+		<item id="help_7">Wenn Sie alle Fundament-Stapel gewinnen, ist das Spiel abgeschlossen.</item>
+		<item id="help_8">Verwenden Sie Hinweise, um mögliche Züge zu sehen.</item>
+		<item id="help_9">Mischen Sie das Deck oder starten Sie das Spiel neu, wenn Sie feststecken.</item>
+		<item id="help_10">Überprüfen Sie den Punktestand und die Zeitanzeige oben auf dem Bildschirm.</item>
+		<item id="help_11">Karten im Fundament müssen nach Farbe von Ass bis König sortiert werden.</item>
+		<item id="help_12">Tableau-Stapel können in absteigender Reihenfolge und abwechselnden Farben aufgebaut werden.</item>
+	</help>
+
+
+	<messagges>
+		<msg id="qitPanelTxt">Willst du das Spiel wirklich verlassen?</msg>
+		<msg id="noCoinsTxt">Du hast nicht genug Münzen.</msg>
+		<msg id="rewardMsg">Herzlichen Glückwunsch!{NL}Du erhältst {N} Münzen.</msg>
+		<msg id="offlineMode">Offline-Modus aktiviert. Du kannst weiterspielen, aber der Fortschritt wird nicht gespeichert, bis du wieder online bist.</msg>
+	</messagges>
+
+	<end_labels>
+		<label id="endMoves">Züge</label>
+		<label id="endTime">Zeit</label>
+		<label id="endScore">Punkte</label>
+		<label id="endHiScore">Rekord</label>
+	</end_labels>
+
+	<buttons>
+		<button id="startBttLabel">START</button>
+		<button id="rewardBttLabel">TÄGLICHE BELohnung</button>
+		<button id="newBttLabel">SPIELEN</button>
+		<button id="homeBttLabel">STARTSEITE</button>
+		<button id="buyBttLabel">KAUFEN</button>
+		<button id="quitBttLabel">BEENDEN</button>
+		<button id="yesBttLabel">JA</button>
+		<button id="noBttLabel">NEIN</button>
+		<button id="okBttLabel">OK</button>
+	</buttons>
+
+</data>

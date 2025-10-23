@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+
+	<labels>
+		<label id="scoreLabel">Score</label>
+		<label id="timeLabel">Time</label>
+		<label id="movesLabel">Moves</label>
+		<label id="quitGameLabel">QUIT GAME?</label>
+		<label id="infoGameLabel">INFO</label>
+		<label id="buyCoinsLabel">BUY CARD</label>
+		<label id="buyCoinsInfo1">YOU HAVE {N} COINS</label>
+		<label id="buyCoinsInfo2">ONE CARD COST {N} COINS</label>
+		<label id="buyHintsLabel">BUY HINTS</label>
+		<label id="buyHintsInfo">ONE HINT COST {N} COINS</label>
+		<label id="alertLabel">ALERT</label>
+		<label id="settingsLabel">Settings</label>
+		<label id="soundLabel">Sound</label>
+		<label id="musicLabel">Music</label>
+		<label id="themesLabel">Themes</label>
+		<label id="langLabel">Language</label>
+		<label id="helpLabel">Help</label>
+		<label id="setLabel">Set</label>
+		<label id="backgroundLabel">BACKGROUNDS</label>
+		<label id="cardsLabel">CARDS</label>
+	</labels>
+
+	<help>
+		<item id="help_1">Click on the card to change card.</item>
+		<item id="help_2">Click on the card in the down deck to move it to the desired spot.</item>
+		<item id="help_3">If you reveal all cards, autoplay will start.</item>
+		<item id="help_4">Use the undo button to reverse your last move.</item>
+		<item id="help_5">You can drag cards between tableau piles.</item>
+		<item id="help_6">Click a card to send it to the foundation automatically.</item>
+		<item id="help_7">Winning all foundation piles completes the game.</item>
+		<item id="help_8">Use hints to reveal possible moves.</item>
+		<item id="help_9">Shuffle the deck or restart the game if you are stuck.</item>
+		<item id="help_10">Check the score and timer at the top of the screen.</item>
+		<item id="help_11">Cards in the foundation must be sorted by suit from Ace to King.</item>
+		<item id="help_12">Tableau piles can be built in descending order and alternating colors.</item>
+	</help>
+
+	<messagges>
+		<msg id="qitPanelTxt">Are you really want to exit game?</msg>
+		<msg id="noCoinsTxt">You don't have enough coins.</msg>
+		<msg id="rewardMsg">Congratulations!{NL}You get {N} coins.</msg>
+		<msg id="offlineTxt">You're in offline mode and You can't buy cards or hints?</msg>
+		<msg id="offlineMode">Offline mode activated. You can keep playing, but progress won't be saved until you're back online.</msg>
+	</messagges>
+
+	<end_labels>
+		<label id="endMoves">Moves</label>
+		<label id="endTime">Time</label>
+		<label id="endScore">Score</label>
+		<label id="endHiScore">Hiscore</label>
+	</end_labels>
+
+	<buttons>
+		<button id="startBttLabel">START</button>
+		<button id="rewardBttLabel">DAILY REWARD</button>
+		<button id="newBttLabel">PLAY</button>
+		<button id="homeBttLabel">HOME</button>
+		<button id="buyBttLabel">BUY</button>
+		<button id="quitBttLabel">EXIT</button>
+		<button id="yesBttLabel">YES</button>
+		<button id="noBttLabel">NO</button>
+		<button id="okBttLabel">OK</button>
+	</buttons>
+
+</data>

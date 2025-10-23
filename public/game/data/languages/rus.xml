@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+
+	<labels>
+		<label id="scoreLabel">Очки</label>
+		<label id="timeLabel">Время</label>
+		<label id="movesLabel">Ходы</label>
+		<label id="quitGameLabel">ЗАВЕРШИТЬ ИГРУ?</label>
+		<label id="infoGameLabel">ИНФО</label>
+		<label id="buyCoinsLabel">КУПИТЬ КАРТУ</label>
+		<label id="buyCoinsInfo1">У ВАС {N} МОНЕТ</label>
+		<label id="buyCoinsInfo2">ОДНА КАРТА СТОИТ {N} МОНЕТ</label>
+		<label id="buyHintsLabel">КУПИТЬ ПОДСКАЗКУ</label>
+		<label id="buyHintsInfo">ОДНА ПОДСКАЗКА СТОИТ {N} МОНЕТ</label>
+		<label id="alertLabel">ВНИМАНИЕ</label>
+		<label id="settingsLabel">Настройки</label>
+		<label id="soundLabel">Звук</label>
+		<label id="themesLabel">Темы</label>
+		<label id="langLabel">Язык</label>
+		<label id="helpLabel">Помощь</label>
+		<label id="setLabel">Набор</label>
+		<label id="backgroundLabel">ФОНЫ</label>
+		<label id="cardsLabel">КАРТЫ</label>
+	</labels>
+
+	<help>
+		<item id="help_1">Нажмите на карту, чтобы изменить карту.</item>
+		<item id="help_2">Нажмите на карту в нижней колоде, чтобы переместить её на нужное место.</item>
+		<item id="help_3">Если вы откроете все карты, начнётся автопроигрыш.</item>
+		<item id="help_4">Используйте кнопку "Отменить", чтобы вернуть последний ход.</item>
+		<item id="help_5">Вы можете перетаскивать карты между столами (tableau).</item>
+		<item id="help_6">Нажмите на карту, чтобы автоматически переместить её в основу (foundation).</item>
+		<item id="help_7">Выиграв все фундаментальные стопки, игра считается завершённой.</item>
+		<item id="help_8">Используйте подсказки (hints), чтобы увидеть возможные ходы.</item>
+		<item id="help_9">Перетасуйте колоду или перезапустите игру, если застряли.</item>
+		<item id="help_10">Проверьте счёт и таймер в верхней части экрана.</item>
+		<item id="help_11">Карты в основе должны быть отсортированы по масти от туза до короля.</item>
+		<item id="help_12">Столы (tableau) можно строить по убыванию и чередующимся цветам.</item>
+	</help>
+
+
+	<messagges>
+		<msg id="qitPanelTxt">Вы действительно хотите выйти из игры?</msg>
+		<msg id="noCoinsTxt">У вас недостаточно монет.</msg>
+		<msg id="rewardMsg">Поздравляем!{NL}Вы получаете {N} монет.</msg>
+		<msg id="offlineMode">Режим офлайн активирован. Вы можете продолжать играть, но прогресс не будет сохранён, пока вы не выйдете в онлайн.</msg>
+	</messagges>
+
+	<end_labels>
+		<label id="endMoves">Ходы</label>
+		<label id="endTime">Время</label>
+		<label id="endScore">Очки</label>
+		<label id="endHiScore">Рекорд</label>
+	</end_labels>
+
+	<buttons>
+		<button id="startBttLabel">СТАРТ</button>
+		<button id="rewardBttLabel">ЕЖЕДНЕВНАЯ НАГРАДА</button>
+		<button id="newBttLabel">ИГРАТЬ</button>
+		<button id="homeBttLabel">ДОМОЙ</button>
+		<button id="buyBttLabel">КУПИТЬ</button>
+		<button id="quitBttLabel">ВЫХОД</button>
+		<button id="yesBttLabel">ДА</button>
+		<button id="noBttLabel">НЕТ</button>
+		<button id="okBttLabel">OK</button>
+	</buttons>
+
+</data>

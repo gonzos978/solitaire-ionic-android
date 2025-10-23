@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assets>
+
+ <scene name="StartScreen">
+    <asset boxName="" y="41.89" name="flyNumber_box" type="GameItem" height="3.02" regPoint="center" index="1" position="absolute" width="8.43" x="-5.61"/>
+    <asset value="+10" boxName="flyNumber_box" name="flyTf" fontSize="45" textColor="ffffff" index="0" width="100" x="-50" align="center" height="100" y="-50" regPoint="topleft" type="TextField" font="Roboto Bold" position="relative"/>
+    <asset boxName="" y="64.3" name="startButton_box" type="GameItem" height="11.04" regPoint="center" index="2" position="absolute" width="54.63" x="50"/>
+    <asset value="START" boxName="startButton_box" name="bigBttTf" fontSize="96" textColor="ffffff" index="1" width="97.36" x="-48.68" align="center" height="52.66" y="-26.32" regPoint="center" type="TextField" font="Arial" position="relative"/>
+    <asset boxName="" y="66.82" name="rewardItems_box" type="MovieClip" height="13.54" regPoint="center" index="3" position="absolute" width="60.65" x="-32.05"/>
+    <asset boxName="rewardItems_box" y="-37.92" name="crown" type="GameItem" height="42.75" regPoint="center" index="2" position="relative" width="23.24" x="43.38"/>
+    <asset boxName="" y="77.32" name="rewardButton_box" type="GameItem" height="11.04" regPoint="center" index="4" position="absolute" width="54.63" x="50"/>
+    <asset value="START" boxName="rewardButton_box" name="bigBttTf" fontSize="96" textColor="ffffff" index="1" width="97.36" x="-48.68" align="center" height="52.66" y="-26.32" regPoint="center" type="TextField" font="Arial" position="relative"/>
+    <asset boxName="" y="15.21" name="gameLogo" type="MovieClip" height="44.79" regPoint="topleft" index="5" position="absolute" width="77.87" x="11.11"/>
+    <asset boxName="" y="0" name="mainTopBar" type="GameItem" height="8.7" regPoint="topleft" index="6" position="absolute" width="100" x="0"/>
+    <asset boxName="" y="4.35" name="settingsBtt" type="Button" height="6.72" regPoint="center" index="7" position="absolute" width="11.94" x="92.21"/>
+    <asset boxName="" y="4.35" name="storeBtt" type="Button" height="6.98" regPoint="center" index="8" position="absolute" width="11.57" x="76.25"/>
+    <asset boxName="" y="1.15" name="coinsInfoBox_box" type="GameItem" height="6.41" regPoint="topleft" index="9" position="absolute" width="56.3" x="2.69"/>
+    <asset boxName="coinsInfoBox_box" y="0" name="coinInfoBcg" type="GameItem" height="100" regPoint="topleft" index="0" position="relative" width="91.12" x="8.88"/>
+    <asset boxName="coinsInfoBox_box" y="8.13" name="coinInfo" type="GameItem" height="83.74" regPoint="topleft" index="1" position="relative" width="17.76" x="0"/>
+    <asset value="1280&#xD;" boxName="coinsInfoBox_box" name="coinInfoTxt" fontSize="71" textColor="ffffff" index="2" width="71.74" x="18.57" align="center" height="69.07" y="10.73" regPoint="center" type="TextField" font="Arial Bold" position="relative"/>
+    <asset boxName="" y="4.35" name="addCoinsBtt" type="MovieClip" height="8.18" regPoint="center" index="10" position="absolute" width="14.26" x="53.6"/>
+    <asset boxName="" y="89.47" name="share_icon_box" type="MovieClip" height="8.85" regPoint="center" index="11" position="absolute" width="20.28" x="16.93"/>
+    <asset boxName="share_icon_box" y="0" name="shareIcon" type="MovieClip" height="100.21" regPoint="center" index="0" position="relative" width="77.63" x="0"/>
+    <asset boxName="share_icon_box" y="-49.99" name="shareCoins" type="MovieClip" height="63.07" regPoint="topleft" index="1" position="relative" width="47.03" x="14.47"/>
+    <asset boxName="" y="54.18" name="videoRewardBtt" type="MovieClip" height="7.86" regPoint="center" index="12" position="absolute" width="13.98" x="50.03"/>
+  </scene>
+  <scene name="GameScreen">
+    <asset boxName="" height="100" y="0" name="bcg" index="0" type="GameItem" regPoint="topleft" position="absolute" width="100" x="0"/>
+    <asset boxName="" height="8.13" y="91.88" name="bottomPanel" index="1" type="GameItem" regPoint="topleft" position="absolute" width="96.57" x="1.71"/>
+    <asset boxName="" height="5.63" y="0" name="topPanel" index="2" type="GameItem" regPoint="topleft" position="absolute" width="100" x="0"/>
+    <asset boxName="" height="6.77" y="96.61" name="gameBtt1" index="3" type="MovieClip" regPoint="center" position="absolute" width="12.04" x="11"/>
+    <asset boxName="" height="6.77" y="96.61" name="gameBtt2" index="4" type="MovieClip" regPoint="center" position="absolute" width="12.04" x="24"/>
+    <asset boxName="" height="6.77" y="96.61" name="gameBtt3" index="5" type="MovieClip" regPoint="center" position="absolute" width="12.04" x="37"/>
+    <asset boxName="" height="6.77" y="96.61" name="gameBtt4" index="6" type="MovieClip" regPoint="center" position="absolute" width="12.04" x="50"/>
+    <asset boxName="" height="6.77" y="96.61" name="gameBtt5" index="7" type="MovieClip" regPoint="center" position="absolute" width="12.04" x="63"/>
+    <asset boxName="" height="6.77" y="96.61" name="gameBtt6" index="8" type="MovieClip" regPoint="center" position="absolute" width="12.04" x="76"/>
+    <asset boxName="" height="6.77" y="96.61" name="gameBtt7" index="9" type="MovieClip" regPoint="center" position="absolute" width="12.04" x="89"/>
+    <asset boxName="" height="10.36" y="12.4" name="cardHolder1" index="10" type="GameItem" regPoint="topleft" position="absolute" width="12.87" x="2.5"/>
+    <asset boxName="" height="10.36" y="12.4" name="cardHolder2" index="11" type="GameItem" regPoint="topleft" position="absolute" width="12.87" x="16.02"/>
+    <asset boxName="" height="10.36" y="12.4" name="cardHolder3" index="12" type="GameItem" regPoint="topleft" position="absolute" width="12.87" x="29.63"/>
+    <asset boxName="" height="10.36" y="12.4" name="cardHolder4" index="13" type="GameItem" regPoint="topleft" position="absolute" width="12.87" x="43.24"/>
+    <asset boxName="" height="10.36" y="12.4" name="cardHolder5" index="14" type="GameItem" regPoint="topleft" position="absolute" width="12.87" x="63.8"/>
+    <asset boxName="" height="10.36" y="12.4" name="cardHolder6" index="15" type="GameItem" regPoint="topleft" position="absolute" width="12.87" x="84.26"/>
+    <asset boxName="" height="10.36" y="27.08" name="cardPosition1" index="16" type="GameItem" regPoint="topleft" position="absolute" width="12.87" x="2.5"/>
+    <asset boxName="" height="10.36" y="27.08" name="cardPosition2" index="17" type="GameItem" regPoint="topleft" position="absolute" width="12.87" x="16.02"/>
+    <asset boxName="" height="10.36" y="31.56" name="cardPosition8" index="18" type="GameItem" regPoint="topleft" position="absolute" width="12.87" x="2.5"/>
+    <asset boxName="" height="10.36" y="27.08" name="cardPosition3" index="19" type="GameItem" regPoint="topleft" position="absolute" width="12.87" x="29.63"/>
+    <asset boxName="" height="10.36" y="27.08" name="cardPosition4" index="20" type="GameItem" regPoint="topleft" position="absolute" width="12.87" x="43.24"/>
+    <asset boxName="" height="10.36" y="27.08" name="cardPosition5" index="21" type="GameItem" regPoint="topleft" position="absolute" width="12.87" x="57.08"/>
+    <asset boxName="" height="10.36" y="27.08" name="cardPosition6" index="22" type="GameItem" regPoint="topleft" position="absolute" width="12.87" x="70.69"/>
+    <asset boxName="" height="10.36" y="27.08" name="cardPosition7" index="23" type="GameItem" regPoint="topleft" position="absolute" width="12.87" x="84.4"/>
+    <asset boxName="" name="scoreLabel" fontSize="37" value="Score" textColor="faf4a6" index="24" width="12.32" x="9.88" align="center" height="2.52" y="1.08" font="Arial" type="TextField" regPoint="center" position="absolute"/>
+    <asset boxName="" name="timeLabel" fontSize="37" value="Time" textColor="faf4a6" index="25" width="12.32" x="39.97" align="center" height="2.52" y="1.08" font="Arial" type="TextField" regPoint="center" position="absolute"/>
+    <asset boxName="" name="movesLabel" fontSize="37" value="Moves" textColor="faf4a6" index="26" width="12.32" x="69.6" align="center" height="2.52" y="1.08" font="Arial" type="TextField" regPoint="center" position="absolute"/>
+    <asset boxName="" name="scoreTf" fontSize="45" value="99" textColor="faf4a6" index="27" width="16.86" x="21.73" align="center" height="3.15" y="0.94" font="Arial" type="TextField" regPoint="center" position="absolute"/>
+    <asset boxName="" name="timeTf" fontSize="45" value="99" textColor="faf4a6" index="28" width="16.86" x="51.15" align="center" height="3.15" y="0.94" font="Arial" type="TextField" regPoint="center" position="absolute"/>
+    <asset boxName="" name="movesTf" fontSize="45" value="99" textColor="faf4a6" index="29" width="16.86" x="82.04" align="center" height="3.15" y="0.94" font="Arial" type="TextField" regPoint="center" position="absolute"/>
+    <asset boxName="" height="10.36" y="15.75" name="cardColors" index="30" type="GameItem" regPoint="topleft" position="absolute" width="12.87" x="-17.22"/>
+    <asset boxName="" height="6.77" y="38.54" name="gameBtt_box" index="31" type="MovieClip" regPoint="center" position="absolute" width="12.04" x="-11.2"/>
+    <asset boxName="gameBtt_box" height="100" y="0" name="iconsSkin" index="0" type="MovieClip" regPoint="center" position="relative" width="100" x="0"/>
+    <asset boxName="gameBtt_box" height="29.23" y="-22" name="hintCircle" index="1" type="GameItem" regPoint="center" position="relative" width="29.23" x="22.5"/>
+    <asset boxName="gameBtt_box" name="bttTf" fontSize="25" value="5&#xD;" textColor="ffffff" index="2" width="51.27" x="-3.12" align="center" height="24.58" y="-34.31" font="Arial Bold" type="TextField" regPoint="center" position="relative"/>
+    <asset boxName="" height="10.36" y="46.18" name="cards" index="32" type="MovieClip" regPoint="topleft" position="absolute" width="13.43" x="-18.61"/>
+    <asset boxName="" height="10.36" y="57.76" name="sampleCard_box" index="33" type="GameItem" regPoint="topleft" position="absolute" width="13.43" x="-18.61"/>
+    <asset boxName="sampleCard_box" name="cardTf" fontSize="50" value="33" textColor="3366" index="1" width="65" x="18.76" align="center" height="30.08" y="21.13" font="Arial" type="TextField" regPoint="topleft" position="relative"/>
+    <asset boxName="" height="10.36" y="50" name="animationCard" index="34" type="MovieClip" regPoint="center" position="absolute" width="13.43" x="50"/>
+  </scene>
+ <scene name="EndScreen">
+    <asset height="42.97" boxName="" name="rays" type="GameItem" regPoint="center" y="39.01" index="1" position="absolute" width="76.39" x="49.81"/>
+    <asset height="49.01" boxName="" name="endPanel_box" type="GameItem" regPoint="center" y="50" index="2" position="absolute" width="67.04" x="50"/>
+    <asset height="100.05" boxName="endPanel_box" name="panelSkin" type="GameItem" regPoint="topleft" y="-45.83" index="0" position="relative" width="100.07" x="-50.03"/>
+    <asset height="9.99" boxName="endPanel_box" name="newBtt" type="Button" regPoint="center" y="41.79" index="1" position="relative" width="41.47" x="-20.32"/>
+    <asset height="9.99" boxName="endPanel_box" name="homeBtt" type="Button" regPoint="center" y="41.79" index="2" position="relative" width="36.07" x="20.32"/>
+    <asset height="7.55" boxName="endPanel_box" name="coinIcon" type="GameItem" regPoint="center" y="29.92" index="3" position="relative" width="10.23" x="-15.49"/>
+    <asset value="Moves" name="label1" fontSize="45" regPoint="center" textColor="853333" index="4" width="28.8" x="-29.15" align="left" height="6.17" boxName="endPanel_box" font="Arial" type="TextField" y="-3.6" position="relative"/>
+    <asset value="Time" name="label2" fontSize="45" regPoint="center" textColor="853333" index="5" width="28.8" x="-29.15" align="left" height="6.17" boxName="endPanel_box" font="Arial" type="TextField" y="2.73" position="relative"/>
+    <asset value="Score" name="label3" fontSize="45" regPoint="center" textColor="853333" index="6" width="28.8" x="-29.15" align="left" height="6.17" boxName="endPanel_box" font="Arial" type="TextField" y="9.37" position="relative"/>
+    <asset value="Top Score" name="label4" fontSize="45" regPoint="center" textColor="4f5801" index="7" width="29.16" x="-29.15" align="left" height="6.17" boxName="endPanel_box" font="Arial" type="TextField" y="15.7" position="relative"/>
+    <asset value="Moves" name="finalTf1" fontSize="45" regPoint="center" textColor="853333" index="8" width="28.8" x="0.22" align="right" height="6.17" boxName="endPanel_box" font="Arial" type="TextField" y="-3.6" position="relative"/>
+    <asset value="Moves" name="finalTf2" fontSize="45" regPoint="center" textColor="853333" index="9" width="28.8" x="0.22" align="right" height="6.17" boxName="endPanel_box" font="Arial" type="TextField" y="2.73" position="relative"/>
+    <asset value="Moves" name="finalTf3" fontSize="45" regPoint="center" textColor="853333" index="10" width="28.8" x="0.22" align="right" height="6.17" boxName="endPanel_box" font="Arial" type="TextField" y="9.37" position="relative"/>
+    <asset value="19678" name="coinsTf" fontSize="45" regPoint="center" textColor="ffffff" index="11" width="28.8" x="-9.8" align="center" height="6.17" boxName="endPanel_box" font="Arial" type="TextField" y="26.36" position="relative"/>
+    <asset value="Moves" name="finalTf4" fontSize="45" regPoint="center" textColor="853333" index="12" width="28.8" x="0.22" align="right" height="6.17" boxName="endPanel_box" font="Arial" type="TextField" y="15.71" position="relative"/>
+    <asset height="4.9" boxName="" name="endButtons_box" type="GameItem" regPoint="topleft" y="22.66" index="3" position="absolute" width="24.17" x="-30.07"/>
+    <asset value="test" name="endBttTf" fontSize="45" regPoint="center" textColor="ffffff" index="1" width="97.22" x="1.15" align="center" height="62.13" boxName="endButtons_box" font="Arial" type="TextField" y="15.75" position="relative"/>
+    <asset height="4.9" boxName="" name="greenBttSkin" type="MovieClip" regPoint="topleft" y="31.2" index="4" position="absolute" width="24.17" x="-30.09"/>
+    <asset height="7.86" boxName="" name="rewardEndBtt" type="MovieClip" regPoint="center" y="84.93" index="5" position="absolute" width="13.98" x="50"/>
+    <asset height="5.42" boxName="" name="star" type="GameItem" regPoint="center" y="15.5" index="6" position="absolute" width="9.63" x="-13.25"/>
+  </scene>
+<scene name="Panels">
+    <asset type="GameItem" height="39.95" y="50" name="settingsPanel_box" boxName="" regPoint="center" index="1" position="absolute" width="60.74" x="50"/>
+    <asset type="GameItem" height="100" y="-50" name="settingsBcgSkin" boxName="settingsPanel_box" regPoint="topleft" index="0" position="relative" width="100.08" x="-50"/>
+    <asset type="GameItem" height="10.56" y="-28.01" name="thumbBtt1" boxName="settingsPanel_box" regPoint="topleft" index="1" position="relative" width="25.17" x="17.09"/>
+    <asset type="GameItem" height="10.56" y="-15.21" name="thumbBtt2" boxName="settingsPanel_box" regPoint="topleft" index="2" position="relative" width="25.17" x="17.09"/>
+    <asset type="Button" height="7.17" y="-41.4" name="settingsCloseBtt" boxName="settingsPanel_box" regPoint="center" index="3" position="relative" width="8.39" x="38.06"/>
+    <asset type="Button" height="9.26" y="5.93" name="themeBtt" boxName="settingsPanel_box" regPoint="center" index="4" position="relative" width="8.39" x="32.57"/>
+    <asset value="SETTINGS" name="settMainlabel" fontSize="50" boxName="settingsPanel_box" textColor="ffffff" index="5" width="61.69" x="-28.49" align="center" height="7.8" regPoint="center" font="Arial Bold" type="TextField" y="-44.98" position="relative"/>
+    <asset value="SOUND" name="musicLabel" fontSize="50" boxName="settingsPanel_box" textColor="ffffff" index="6" width="35.41" x="-32.08" align="left" height="7.8" regPoint="center" font="Arial Bold" type="TextField" y="-12.22" position="relative"/>
+    <asset value="SOUND" name="themesLabel" fontSize="50" boxName="settingsPanel_box" textColor="ffffff" index="7" width="35.41" x="-32.08" align="left" height="7.8" regPoint="center" font="Arial Bold" type="TextField" y="1.73" position="relative"/>
+    <asset value="SOUND" name="soundLabel" fontSize="50" boxName="settingsPanel_box" textColor="ffffff" index="8" width="35.41" x="-32.08" align="left" height="7.8" regPoint="center" font="Arial Bold" type="TextField" y="-26.71" position="relative"/>
+    <asset type="GameItem" height="32.5" y="50" name="helpPanel_box" boxName="" regPoint="center" index="2" position="absolute" width="82.04" x="50.19"/>
+    <asset type="GameItem" height="100.08" y="-50" name="helpPanelSkin" boxName="helpPanel_box" regPoint="topleft" index="0" position="relative" width="100.06" x="-50"/>
+    <asset type="Button" height="8.82" y="-38.89" name="closeHelpBtt" boxName="helpPanel_box" regPoint="center" index="1" position="relative" width="6.21" x="41.33"/>
+    <asset value="HELP" name="topHelpLabel" fontSize="73" boxName="helpPanel_box" textColor="ffffff" index="2" width="90.08" x="-45.13" align="center" height="13.72" regPoint="center" font="Arial Bold" type="TextField" y="-46.07" position="relative"/>
+    <asset value="sasasasasasasasasasas&#xD;" name="helpTxt" fontSize="40" boxName="helpPanel_box" textColor="ffffff" index="3" width="86.15" x="-43.18" align="center" height="56.4" regPoint="center" font="Arial Bold" type="TextField" y="-26.14" position="relative"/>
+    <asset value="2//2&#xD;" name="pageCounterTf" fontSize="40" boxName="helpPanel_box" textColor="ffffff" index="4" width="11.11" x="31.85" align="center" height="7.81" regPoint="center" font="Arial Bold" type="TextField" y="33.65" position="relative"/>
+    <asset type="MovieClip" height="30.15" y="15.08" name="helpImg" boxName="helpPanel_box" regPoint="center" index="5" position="relative" width="61.89" x="0"/>
+    <asset type="Button" height="7.34" y="50" name="helpBttLeft" boxName="" regPoint="center" index="3" position="absolute" width="6.76" x="5.19"/>
+    <asset type="Button" height="7.34" y="50" name="helpBttRight" boxName="" regPoint="center" index="4" position="absolute" width="6.76" x="95.11"/>
+    <asset type="GameItem" height="36.51" y="50.01" name="themePanel_box" boxName="" regPoint="center" index="5" position="absolute" width="100" x="50.02"/>
+    <asset type="GameItem" height="100.11" y="-50.2" name="themeSkinBcg" boxName="themePanel_box" regPoint="topleft" index="0" position="relative" width="100" x="-50.19"/>
+    <asset type="MovieClip" height="73.16" y="-30.34" name="themesTabs" boxName="themePanel_box" regPoint="topleft" index="1" position="relative" width="91.85" x="-46.46"/>
+    <asset value="THEMES&#xD;" name="themesPanelLabel" fontSize="73" boxName="themePanel_box" textColor="ffffff" index="2" width="51.21" x="-25.61" align="center" height="12.2" regPoint="center" font="Arial Bold" type="TextField" y="-46.43" position="relative"/>
+    <asset type="MovieClip" height="11.12" y="-24.12" name="bcgTextBtt" boxName="themePanel_box" regPoint="center" index="3" position="relative" width="38.33" x="-23.33"/>
+    <asset type="MovieClip" height="11.12" y="-24.12" name="cardTxtBtt" boxName="themePanel_box" regPoint="center" index="4" position="relative" width="38.33" x="22.19"/>
+    <asset type="Button" height="7.84" y="-40.69" name="themesCloseBtt" boxName="themePanel_box" regPoint="center" index="5" position="relative" width="5.09" x="42.95"/>
+    <asset type="MovieClip" height="42.5" y="13.96" name="themesCard1" boxName="themePanel_box" regPoint="center" index="6" position="relative" width="20.09" x="-33.91"/>
+    <asset type="MovieClip" height="42.5" y="13.96" name="themesCard2" boxName="themePanel_box" regPoint="center" index="7" position="relative" width="20.09" x="-11.69"/>
+    <asset type="MovieClip" height="42.5" y="13.96" name="themesCard3" boxName="themePanel_box" regPoint="center" index="8" position="relative" width="20.09" x="10.53"/>
+    <asset type="MovieClip" height="42.5" y="13.96" name="themesCard4" boxName="themePanel_box" regPoint="center" index="9" position="relative" width="20.09" x="32.75"/>
+    <asset type="MovieClip" height="44.78" y="15.22" name="bcg1" boxName="themePanel_box" regPoint="center" index="10" position="relative" width="16.3" x="-34.35"/>
+    <asset type="MovieClip" height="44.78" y="15.22" name="bcg2" boxName="themePanel_box" regPoint="center" index="11" position="relative" width="16.3" x="-11.45"/>
+    <asset type="MovieClip" height="44.78" y="15.22" name="bcg4" boxName="themePanel_box" regPoint="center" index="12" position="relative" width="16.3" x="34.34"/>
+    <asset type="MovieClip" height="44.78" y="15.22" name="bcg3" boxName="themePanel_box" regPoint="center" index="13" position="relative" width="16.3" x="11.44"/>
+    <asset type="GameItem" height="25" y="50" name="lostPanel_box" boxName="" regPoint="center" index="6" position="absolute" width="67.04" x="50"/>
+    <asset type="GameItem" height="34.53" y="56.36" name="settingsGamePanel_box" boxName="" regPoint="center" index="7" position="absolute" width="94.44" x="50"/>
+    <asset type="GameItem" height="100.11" y="-50" name="quitPanelSkin" boxName="settingsGamePanel_box" regPoint="topleft" index="0" position="relative" width="100" x="-50"/>
+    <asset type="Button" height="19.33" y="29.99" name="okBtt" boxName="settingsGamePanel_box" regPoint="center" index="1" position="relative" width="29.41" x="0"/>
+    <asset type="Button" height="19.33" y="29.99" name="yesBtt" boxName="settingsGamePanel_box" regPoint="center" index="2" position="relative" width="29.41" x="-20.52"/>
+    <asset type="Button" height="19.33" y="29.99" name="noBtt" boxName="settingsGamePanel_box" regPoint="center" index="3" position="relative" width="29.41" x="20.52"/>
+    <asset value="QUIT GAME?&#xD;" name="settingsLabel" fontSize="60" boxName="settingsGamePanel_box" textColor="ffffff" index="4" width="88.43" x="-43.81" align="center" height="10.72" regPoint="center" font="Arial Bold" type="TextField" y="-45.72" position="relative"/>
+    <asset type="MovieClip" height="8.31" y="-40.66" name="panelCloseBtt" boxName="settingsGamePanel_box" regPoint="center" index="5" position="relative" width="5.39" x="42.65"/>
+    <asset value="SOUND&#xD;" name="soundLabel" fontSize="60" boxName="settingsGamePanel_box" textColor="ffffff" index="6" width="42.78" x="-43.16" align="left" height="10.72" regPoint="center" font="Arial Bold" type="TextField" y="-32.25" position="relative"/>
+    <asset type="MovieClip" height="12.23" y="-33.67" name="soundSwitch" boxName="settingsGamePanel_box" regPoint="topleft" index="7" position="relative" width="16.18" x="20.32"/>
+    <asset value="SOUND&#xD;" name="musicLabel" fontSize="60" boxName="settingsGamePanel_box" textColor="ffffff" index="8" width="42.78" x="-43.16" align="left" height="10.72" regPoint="center" font="Arial Bold" type="TextField" y="-15.66" position="relative"/>
+    <asset type="MovieClip" height="12.23" y="-17.08" name="musicSwitch" boxName="settingsGamePanel_box" regPoint="topleft" index="9" position="relative" width="16.18" x="20.32"/>
+    <asset value="LANGUAGE&#xD;" name="langLabel" fontSize="60" boxName="settingsGamePanel_box" textColor="ffffff" index="10" width="42.78" x="-43.16" align="left" height="10.72" regPoint="center" font="Arial Bold" type="TextField" y="0.94" position="relative"/>
+    <asset type="MovieClip" height="12.99" y="6.3" name="langBtt" boxName="settingsGamePanel_box" regPoint="center" index="11" position="relative" width="21.77" x="28.65"/>
+    <asset value="THEMES&#xD;" name="helpLabel" fontSize="60" boxName="settingsGamePanel_box" textColor="ffffff" index="12" width="42.78" x="-43.16" align="left" height="10.72" regPoint="center" font="Arial Bold" type="TextField" y="17.52" position="relative"/>
+    <asset type="MovieClip" height="10.72" y="22.88" name="helpSettingsBtt" boxName="settingsGamePanel_box" regPoint="center" index="13" position="relative" width="5.39" x="27.59"/>
+    <asset value="THEMES&#xD;" name="themesLabel" fontSize="60" boxName="settingsGamePanel_box" textColor="ffffff" index="14" width="42.78" x="-43.16" align="left" height="10.72" regPoint="center" font="Arial Bold" type="TextField" y="34.1" position="relative"/>
+    <asset type="MovieClip" height="10.72" y="39.46" name="themesBtt" boxName="settingsGamePanel_box" regPoint="center" index="15" position="relative" width="5.39" x="27.59"/>
+    <asset type="GameItem" height="5.57" y="20.84" name="buyCoinIcons" boxName="" regPoint="topleft" index="8" position="absolute" width="9.54" x="-16.66"/>
+    <asset type="GameItem" height="34.53" y="50" name="buyPanel_box" boxName="" regPoint="center" index="9" position="absolute" width="94.44" x="50"/>
+    <asset type="MovieClip" height="100.11" y="-50" name="panelBcg" boxName="buyPanel_box" regPoint="topleft" index="0" position="relative" width="100" x="-50"/>
+    <asset value="QUIT GAME?&#xD;" name="buyCoinsLabel" fontSize="58" boxName="buyPanel_box" textColor="ffffff" index="1" width="77.01" x="-37.81" align="center" height="10.39" regPoint="center" font="Arial Bold" type="TextField" y="-45.61" position="relative"/>
+    <asset value="1 card = 50 &#xD;2&#xD;" name="coinsInfo2" fontSize="50" boxName="buyPanel_box" textColor="ffffff" index="2" width="76.09" x="-37.81" align="center" height="18.01" regPoint="center" font="Arial Bold" type="TextField" y="-7.01" position="relative"/>
+    <asset value="Coins: 50 &#xD;2&#xD;" name="coinsInfo1" fontSize="50" boxName="buyPanel_box" textColor="ffffff" index="3" width="76.09" x="-37.59" align="center" height="17.77" regPoint="center" font="Arial Bold" type="TextField" y="-28.52" position="relative"/>
+    <asset type="Button" height="22.2" y="28.59" name="buyBtt" boxName="buyPanel_box" regPoint="center" index="4" position="relative" width="29.41" x="-20.72"/>
+    <asset type="Button" height="22.2" y="28.75" name="buyCloseBtt" boxName="buyPanel_box" regPoint="center" index="5" position="relative" width="29.41" x="19.03"/>
+    <asset type="MovieClip" height="28.39" y="-19.49" name="coinsForBuy" boxName="buyPanel_box" regPoint="topleft" index="6" position="relative" width="17.75" x="29.89"/>
+    <asset type="MovieClip" height="7.66" y="36.56" name="buyBtt_box" boxName="" regPoint="center" index="10" position="absolute" width="27.78" x="-19.25"/>
+    <asset value="KAUFEN&#xD;" name="buyBttTf" fontSize="50" boxName="buyBtt_box" textColor="ffffff" index="1" width="91" x="-45.5" align="center" height="65.44" regPoint="center" font="Arial Bold" type="TextField" y="-28.92" position="relative"/>
+    <asset type="MovieClip" height="34.53" y="56.36" name="quitGamePanel_box" boxName="" regPoint="center" index="11" position="absolute" width="94.44" x="50"/>
+    <asset type="Button" height="19.33" y="29.99" name="okBtt" boxName="quitGamePanel_box" regPoint="center" index="1" position="relative" width="29.41" x="0"/>
+    <asset type="Button" height="19.33" y="29.99" name="yesBtt" boxName="quitGamePanel_box" regPoint="center" index="2" position="relative" width="29.41" x="-20.52"/>
+    <asset type="Button" height="19.33" y="29.99" name="noBtt" boxName="quitGamePanel_box" regPoint="center" index="3" position="relative" width="29.41" x="20.52"/>
+    <asset value="QUIT GAME?&#xD;" name="quitLabel" fontSize="60" boxName="quitGamePanel_box" textColor="ffffff" index="4" width="88.43" x="-43.81" align="center" height="10.72" regPoint="center" font="Arial Bold" type="TextField" y="-45.72" position="relative"/>
+    <asset type="MovieClip" height="8.31" y="-40.66" name="quitPanelCloseBtt" boxName="quitGamePanel_box" regPoint="center" index="5" position="relative" width="5.39" x="42.65"/>
+    <asset value="SOUND&#xD;" name="quitTf" fontSize="60" boxName="quitGamePanel_box" textColor="ffffff" index="6" width="85.21" x="-43.16" align="center" height="38.2" regPoint="center" font="Arial Bold" type="TextField" y="-24.08" position="relative"/>
+    <asset type="MovieClip" height="9.53" y="38.52" name="fbBtt" boxName="" regPoint="center" index="12" position="absolute" width="16.94" x="27.19"/>
+    <asset type="MovieClip" height="9.53" y="38.52" name="instaBtt" boxName="" regPoint="center" index="13" position="absolute" width="16.94" x="50.06"/>
+    <asset type="MovieClip" height="9.53" y="38.52" name="xBtt" boxName="" regPoint="center" index="14" position="absolute" width="16.94" x="72.93"/>
+    <asset type="MovieClip" height="9.53" y="53.83" name="wpBtt" boxName="" regPoint="center" index="15" position="absolute" width="16.94" x="27"/>
+    <asset type="MovieClip" height="9.53" y="53.83" name="telegramBtt" boxName="" regPoint="center" index="16" position="absolute" width="16.94" x="49.87"/>
+    <asset type="MovieClip" height="9.53" y="53.83" name="viberBtt" boxName="" regPoint="center" index="17" position="absolute" width="16.94" x="72.74"/>
+    <asset type="GameItem" height="4.22" y="13.51" name="switchBtt_box" boxName="" regPoint="topleft" index="18" position="absolute" width="15.28" x="-18.75"/>
+    <asset type="MovieClip" height="70.37" y="15.12" name="onofSkin" boxName="switchBtt_box" regPoint="topleft" index="0" position="relative" width="86.06" x="8.39"/>
+    <asset type="GameItem" height="100" y="55.43" name="thumbBtt" boxName="switchBtt_box" regPoint="center" index="1" position="relative" width="49.09" x="24.55"/>
+    <asset type="GameItem" height="100" y="55.43" name="thumbBttEnd" boxName="switchBtt_box" regPoint="center" index="2" position="relative" width="49.09" x="75.45"/>
+    <asset type="MovieClip" height="4.11" y="31.74" name="simpleTxtBtt" boxName="" regPoint="center" index="19" position="absolute" width="38.43" x="-21.41"/>
+  </scene>
+   <scene name="DebugScreen">
+    <asset width="86.48" y="3.35" boxName="" name="debugScreen_box" type="GameItem" height="35.42" regPoint="topleft" index="0" position="absolute" x="0"/>
+    <asset width="100" y="0" boxName="debugScreen_box" name="devugBcg" type="MovieClip" height="100" regPoint="topleft" index="1" position="relative" x="0"/>
+    <asset width="100" y="0" boxName="debugScreen_box" name="debugTopBar" type="MovieClip" height="5.88" regPoint="topleft" index="2" position="relative" x="0"/>
+    <asset width="5.67" y="0" boxName="debugScreen_box" name="debugTopBtt" type="Button" height="5.88" regPoint="topleft" index="3" position="relative" x="94.31"/>
+    <asset width="16.06" y="15.04" boxName="debugScreen_box" name="executeBtt" type="MovieClip" height="6.47" regPoint="topleft" index="4" position="relative" x="41.28"/>
+    <asset width="16.06" y="27.35" boxName="debugScreen_box" name="copyBtt1" type="MovieClip" height="6.47" regPoint="topleft" index="5" position="relative" x="41.28"/>
+    <asset width="16.06" y="35.1" boxName="debugScreen_box" name="copyBtt2" type="MovieClip" height="6.47" regPoint="topleft" index="6" position="relative" x="41.28"/>
+    <asset value="asasasasa" align="center" height="6.49" boxName="debugScreen_box" font="Arial" regPoint="topleft" index="7" position="relative" x="2.47" y="9.71" fontSize="25" name="debugInputTf1" type="TextField" textColor="0" width="37.17"/>
+    <asset value="asasasasa" align="center" height="6.49" boxName="debugScreen_box" font="Arial" regPoint="topleft" index="8" position="relative" x="2.47" y="17.92" fontSize="25" name="debugInputTf2" type="TextField" textColor="0" width="37.17"/>
+    <asset value="asasasasa&#xD;" align="center" height="61.46" boxName="debugScreen_box" font="Arial" regPoint="topleft" index="9" position="relative" x="2.47" y="27.04" fontSize="25" name="debugInfoTf" type="TextField" textColor="0" width="37.17"/>
+    <asset value="SET REEL SPEED&#xD;" align="center" height="4.7" boxName="debugScreen_box" font="Arial" regPoint="topleft" index="10" position="relative" x="62.63" y="47.38" fontSize="25" name="debugSpeedLabel" type="TextField" textColor="0" width="31.8"/>
+    <asset value="100&#xD;" align="center" height="4.7" boxName="debugScreen_box" font="Arial" regPoint="topleft" index="11" position="relative" x="62.63" y="52.71" fontSize="25" name="debugReelSpeedTf" type="TextField" textColor="0" width="31.8"/>
+    <asset width="16.06" y="60.08" boxName="debugScreen_box" name="debugSetSpeedButton" type="MovieClip" height="6.47" regPoint="topleft" index="12" position="relative" x="70.68"/>
+    <asset width="16.06" y="69.35" boxName="debugScreen_box" name="debugGetSpeedButton" type="MovieClip" height="6.47" regPoint="topleft" index="13" position="relative" x="70.68"/>
+    <asset width="13.89" y="42.33" boxName="" name="debugBtt_box" type="Button" height="2.29" regPoint="topleft" index="1" position="absolute" x="7.4"/>
+    <asset value="test" align="center" height="93.48" boxName="debugBtt_box" font="Arial" regPoint="topleft" index="1" position="relative" x="1.47" y="0.57" fontSize="30" name="debugBttTf" type="TextField" textColor="0" width="95.63"/>
+  </scene>	
+	
+</assets>

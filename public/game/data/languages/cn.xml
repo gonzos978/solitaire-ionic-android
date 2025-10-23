@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+
+	<labels>
+		<label id="scoreLabel">得分</label>
+		<label id="timeLabel">时间</label>
+		<label id="movesLabel">步数</label>
+		<label id="quitGameLabel">退出游戏？</label>
+		<label id="buyCoinsLabel">购买卡片</label>
+		<label id="buyCoinsInfo1">你有 {N} 个金币</label>
+		<label id="buyCoinsInfo2">一张卡片需要 {N} 个金币</label>
+		<label id="buyHintsLabel">购买提示</label>
+		<label id="buyHintsInfo">一个提示需要 {N} 个金币</label>
+		<label id="alertLabel">提示</label>
+		<label id="settingsLabel">设置</label>
+		<label id="soundLabel">声音</label>
+		<label id="themesLabel">主题</label>
+		<label id="langLabel">语言</label>
+		<label id="helpLabel">帮助</label>
+		<label id="setLabel">套装</label>
+		<label id="backgroundLabel">背景</label>
+		<label id="cardsLabel">卡片</label>
+	</labels>
+
+	<help>
+		<item id="help_1">点击牌以更换牌。</item>
+		<item id="help_2">点击下方牌堆中的牌，将其移到目标位置。</item>
+		<item id="help_3">如果翻开所有牌，自动游戏将开始。</item>
+		<item id="help_4">使用撤销按钮撤回上一步操作。</item>
+		<item id="help_5">您可以在桌面（tableau）堆之间拖动牌。</item>
+		<item id="help_6">点击牌可自动移动到基础牌堆（foundation）。</item>
+		<item id="help_7">完成所有基础牌堆即胜利游戏。</item>
+		<item id="help_8">使用提示（hints）查看可能的操作。</item>
+		<item id="help_9">如果卡住，请洗牌或重新开始游戏。</item>
+		<item id="help_10">查看屏幕顶部的分数和计时器。</item>
+		<item id="help_11">基础牌堆中的牌必须按花色从A到K排序。</item>
+		<item id="help_12">桌面（tableau）堆可以按降序和交替颜色堆叠。</item>
+	</help>
+
+	<end_labels>
+		<label id="endMoves">步数</label>
+		<label id="endTime">时间</label>
+		<label id="endScore">分数</label>
+		<label id="endHiScore">最高分</label>
+	</end_labels>
+
+	<buttons>
+		<button id="startBttLabel">开始</button>
+		<button id="rewardBttLabel">每日奖励</button>
+		<button id="newBttLabel">开始游戏</button>
+		<button id="homeBttLabel">主页</button>
+		<button id="buyBttLabel">购买</button>
+		<button id="quitBttLabel">退出</button>
+		<button id="yesBttLabel">是</button>
+		<button id="noBttLabel">否</button>
+		<button id="okBttLabel">确定</button>
+	</buttons>
+</data>

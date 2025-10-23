@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+
+	<item id="card_cost">100</item>
+	<item id="decrease_score">300</item>
+	<item id="decrease_hint">25</item>
+	<item id="ads_win_value">300</item>
+	<item id="winning_stars">100</item>
+	<item id="hint_cost">50</item>
+	<item id="share_value">200</item>
+	<item id="player_levels">bronze, silver, gold, diamond</item>
+	<item id="showShareButton">false</item>
+	<item id="helpPages">12</item>
+	
+	<languages id="lang_keys">
+		<lang id="en">English</lang>
+		<lang id="de">Deutsch</lang>
+		<lang id="es">Español</lang>
+		<lang id="pt">Português</lang>
+		<lang id="rus">Русский</lang>
+		<lang id="pl">Polski</lang>
+		<lang id="cz">Czech</lang>
+		<lang id="ba">Bosnian</lang>
+		<lang id="cn">Chinese</lang>
+		
+	</languages>
+
+
+</data>

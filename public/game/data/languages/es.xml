@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+
+	<labels>
+		<label id="scoreLabel">Puntuación</label>
+		<label id="timeLabel">Tiempo</label>
+		<label id="movesLabel">Movimientos</label>
+		<label id="quitGameLabel">¿SALIR DEL JUEGO?</label>
+		<label id="infoGameLabel">INFO</label>
+		<label id="buyCoinsLabel">COMPRAR CARTA</label>
+		<label id="buyCoinsInfo1">TIENES {N} MONEDAS</label>
+		<label id="buyCoinsInfo2">UNA CARTA CUESTA {N} MONEDAS</label>
+		<label id="buyHintsLabel">COMPRAR PISTA</label>
+		<label id="buyHintsInfo">UNA PISTA CUESTA {N} MONEDAS</label>
+		<label id="alertLabel">ALERTA</label>
+		<label id="settingsLabel">Configuración</label>
+		<label id="soundLabel">Sonido</label>
+		<label id="themesLabel">Temas</label>
+		<label id="langLabel">Idioma</label>
+		<label id="helpLabel">Ayuda</label>
+		<label id="setLabel">Conjunto</label>
+		<label id="backgroundLabel">FONDOS</label>
+		<label id="cardsLabel">CARTAS</label>
+	</labels>
+
+	<help>
+		<item id="help_1">Haz clic en la carta para cambiarla.</item>
+		<item id="help_2">Haz clic en la carta del mazo inferior para moverla al lugar deseado.</item>
+		<item id="help_3">Si descubres todas las cartas, se iniciará el juego automático.</item>
+		<item id="help_4">Usa el botón de deshacer para revertir tu último movimiento.</item>
+		<item id="help_5">Puedes arrastrar cartas entre las pilas del tableau.</item>
+		<item id="help_6">Haz clic en una carta para enviarla automáticamente a la fundación.</item>
+		<item id="help_7">Ganar todas las pilas de la fundación completa el juego.</item>
+		<item id="help_8">Usa pistas (hints) para revelar movimientos posibles.</item>
+		<item id="help_9">Baraja el mazo o reinicia el juego si estás atascado.</item>
+		<item id="help_10">Consulta la puntuación y el temporizador en la parte superior de la pantalla.</item>
+		<item id="help_11">Las cartas en la fundación deben ordenarse por palo de As a Rey.</item>
+		<item id="help_12">Las pilas del tableau se pueden construir en orden descendente y colores alternos.</item>
+	</help>
+
+
+	<messagges>
+		<msg id="qitPanelTxt">¿Realmente quieres salir del juego?</msg>
+		<msg id="noCoinsTxt">No tienes suficientes monedas.</msg>
+		<msg id="rewardMsg">¡Felicidades!{NL}Has obtenido {N} monedas.</msg>
+		<msg id="offlineMode">Modo offline activado. Puedes seguir jugando, pero el progreso no se guardará hasta que vuelvas a estar en línea.</msg>
+	</messagges>
+
+	<end_labels>
+		<label id="endMoves">Movimientos</label>
+		<label id="endTime">Tiempo</label>
+		<label id="endScore">Puntuación</label>
+		<label id="endHiScore">Récord</label>
+	</end_labels>
+
+	<buttons>
+		<button id="startBttLabel">INICIAR</button>
+		<button id="rewardBttLabel">RECOMPENSA DIARIA</button>
+		<button id="newBttLabel">JUGAR</button>
+		<button id="homeBttLabel">INICIO</button>
+		<button id="buyBttLabel">COMPRAR</button>
+		<button id="quitBttLabel">SALIR</button>
+		<button id="yesBttLabel">SÍ</button>
+		<button id="noBttLabel">NO</button>
+		<button id="okBttLabel">OK</button>
+	</buttons>
+
+</data>

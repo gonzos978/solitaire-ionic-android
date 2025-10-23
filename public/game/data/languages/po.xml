@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+
+    <labels>
+        <label id="scoreLabel">Pontuação</label>
+        <label id="timeLabel">Tempo</label>
+        <label id="movesLabel">Movimentos</label>
+        <label id="quitGameLabel">SAIR DO JOGO?</label>
+		<label id="infoGameLabel">INFO</label>
+        <label id="buyCoinsLabel">COMPRAR CARTA</label>
+        <label id="buyCoinsInfo1">VOCÊ TEM {N} MOEDAS</label>
+        <label id="buyCoinsInfo2">UMA CARTA CUSTA {N} MOEDAS</label>
+        <label id="buyHintsLabel">COMPRAR DICAS</label>
+        <label id="buyHintsInfo">UMA DICA CUSTA {N} MOEDAS</label>
+        <label id="alertLabel">ALERTA</label>
+        <label id="settingsLabel">Configurações</label>
+        <label id="soundLabel">Som</label>
+        <label id="musicLabel">Música</label>
+        <label id="themesLabel">Temas</label>
+        <label id="langLabel">Idioma</label>
+        <label id="helpLabel">Ajuda</label>
+        <label id="setLabel">Conjunto</label>
+        <label id="backgroundLabel">PANO DE FUNDO</label>
+        <label id="cardsLabel">CARTAS</label>
+    </labels>
+
+    <help>
+        <item id="help_1">Clique na carta para trocá-la.</item>
+        <item id="help_2">Clique na carta no baralho inferior para movê-la para o local desejado.</item>
+        <item id="help_3">Se revelar todas as cartas, o jogo automático será iniciado.</item>
+        <item id="help_4">Use o botão desfazer para reverter seu último movimento.</item>
+        <item id="help_5">Você pode arrastar cartas entre os montes do tableau.</item>
+        <item id="help_6">Clique em uma carta para enviá-la automaticamente para a fundação.</item>
+        <item id="help_7">Ganhando todos os montes da fundação, o jogo é concluído.</item>
+        <item id="help_8">Use dicas para revelar movimentos possíveis.</item>
+        <item id="help_9">Embaralhe o baralho ou reinicie o jogo se ficar preso.</item>
+        <item id="help_10">Verifique a pontuação e o cronômetro na parte superior da tela.</item>
+        <item id="help_11">As cartas na fundação devem ser classificadas por naipe do Ás ao Rei.</item>
+        <item id="help_12">Os montes do tableau podem ser construídos em ordem decrescente e cores alternadas.</item>
+    </help>
+
+    <messagges>
+        <msg id="qitPanelTxt">Você realmente quer sair do jogo?</msg>
+        <msg id="noCoinsTxt">Você não tem moedas suficientes.</msg>
+        <msg id="rewardMsg">Parabéns!{NL}Você ganhou {N} moedas.</msg>
+		<msg id="offlineMode">Modo offline ativado. Você pode continuar jogando, mas o progresso não será salvo até que você volte a estar online.</msg>
+    </messagges>
+
+    <end_labels>
+        <label id="endMoves">Movimentos</label>
+        <label id="endTime">Tempo</label>
+        <label id="endScore">Pontuação</label>
+        <label id="endHiScore">Maior Pontuação</label>
+    </end_labels>
+
+    <buttons>
+        <button id="startBttLabel">INICIAR</button>
+        <button id="rewardBttLabel">RECOMPENSA DIÁRIA</button>
+        <button id="newBttLabel">JOGAR</button>
+        <button id="homeBttLabel">INÍCIO</button>
+        <button id="buyBttLabel">COMPRAR</button>
+        <button id="quitBttLabel">SAIR</button>
+        <button id="yesBttLabel">SIM</button>
+        <button id="noBttLabel">NÃO</button>
+		<button id="okBttLabel">OK</button>
+    </buttons>
+
+</data>

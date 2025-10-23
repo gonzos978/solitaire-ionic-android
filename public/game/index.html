@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+
+    <title>SolitaireGame</title>
+
+    <meta id="viewport" name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+
+    <link rel="shortcut icon" type="image/png" href="./favicon.png">
+    <script type="text/javascript" src="./SolitaireGame.js"></script>
+    <script>
+
+    </script>
+
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        #openfl-content {
+            background: #000000;
+            width: 100%;
+            height: 100%;
+        }
+
+        @font-face {
+            font-family: 'Arial';
+            src: url('fonts/ARIAL.eot?#iefix') format('embedded-opentype'),
+            url('fonts/ARIAL.woff') format('woff'),
+            url('fonts/ARIAL.TTF') format('truetype'),
+            url('fonts/ARIAL.svg#Arial') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Arial Bold';
+            src: url('fonts/arialbd.eot?#iefix') format('embedded-opentype'),
+            url('fonts/arialbd.woff') format('woff'),
+            url('fonts/arialbd.ttf') format('truetype'),
+            url('fonts/arialbd.svg#Arial%20Bold') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Roboto Bold';
+            src: url('fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+            url('fonts/Roboto-Bold.woff') format('woff'),
+            url('fonts/Roboto-Bold.ttf') format('truetype'),
+            url('fonts/Roboto-Bold.svg#Roboto%20Bold') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            src: url('fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+            url('fonts/Roboto-Regular.woff') format('woff'),
+            url('fonts/Roboto-Regular.ttf') format('truetype'),
+            url('fonts/Roboto-Regular.svg#Roboto') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+    </style>
+
+    <meta property="og:title" content="Klondike Solitaire"/>
+    <meta property="og:description" content="Play the classic Klondike Solitaire online for free!"/>
+    <meta property="og:image" content="https://solitaire-game-536b5.web.app/cover.jpg"/>
+    <meta property="og:url" content="https://my-solitaire-game.web.app"/>
+    <meta property="og:type" content="website"/>
+
+</head>
+<body>
+
+<noscript>This webpage makes extensive use of JavaScript. Please enable JavaScript in your web browser to view this
+    page.
+</noscript>
+
+<div id="openfl-content"></div>
+
+<script type="text/javascript" defer>
+
+    // Listen for messages from parent (Ionic React)
+    window.addEventListener("message", (event) => {
+        const {type, payload} = event.data || {};
+        console.log("Message from parent:", type, payload);
+
+        switch (type) {
+
+
+            case "INITIAL_DATA":
+                console.log("foo", window.actionCallback);
+                window.actionCallback("INITIAL_DATA", payload);
+                break;
+
+            case "REWARD_CHECKED":
+                window.actionCallback("REWARD_CHECKED", payload);
+                break;
+
+            case "SPEND_HINT":
+                if (window.spendHint) {
+                    window.spendHint().then((res) => {
+                        sendMessageToParent("PLAYER_HINT_UPDATE", {hints: res.hints});
+                    });
+                }
+                break;
+            case "VIDEO_REWARD_GRANTED":
+                window.actionCallback("VIDEO_REWARD_GRANTED", payload);
+
+                break;
+            case "CARD_SPENDED":
+                window.actionCallback("CARD_SPENDED", payload);
+                break;
+            case "CARD_BUOYED":
+                window.actionCallback("CARD_BUOYED", payload);
+                break
+            case "HINTS_SPENDED":
+                window.actionCallback("HINTS_SPENDED", payload);
+                break;
+            case "HINTS_BUOYED":
+                window.actionCallback("HINTS_BUOYED", payload);
+                break;
+            case "GAME_END":
+                window.actionCallback("GAME_END", payload);
+                break;
+            case "NETWORK_STATUS":
+                window.actionCallback("NETWORK_STATUS", payload);
+
+                break;
+        }
+    });
+
+
+    window.addEventListener("load", function () {
+
+
+        window.jsBridge = async (callback, msg, data) => {
+
+            console.log("TEST: ", msg);
+            if (callback !== null) {
+                window.actionCallback = callback;
+            }
+
+            if (msg) {
+
+                switch (msg) {
+
+                    case "CHECK_NETWORK":
+                        window.parent.postMessage({
+                            type: msg, payload: {}
+                        }, "*");
+                        break;
+                    case "INIT_ADD_MOB":
+                        window.parent.postMessage({
+                            type: msg, payload: {}
+                        }, "*");
+                        break;
+                    case "SHOW_BANNER":
+                        window.parent.postMessage({
+                            type: msg, payload: {
+                                coins: 500,       // new coin balance
+                                earned: 100,      // last earned amount (optional)
+                                totalPlayed: 12   // optional stats
+                            }
+                        }, "*");
+
+                        break;
+                    case "HIDE_BANNER":
+                        window.parent.postMessage({type: msg, payload: {}})
+                        break;
+                    case "SHOW_REWARD_VIDEO":
+                        window.parent.postMessage({
+                            type: msg, payload: {
+                                coins: 500,       // new coin balance
+                                earned: 100,      // last earned amount (optional)
+                                totalPlayed: 12   // optional stats
+                            }
+                        }, "*");
+                        break;
+
+                    case "GET_INITIAL_DATA":
+
+                        window.parent.postMessage({type: msg, payload: {}})
+
+                        break;
+
+                    case "BUY_CARD":
+                        window.parent.postMessage({type: msg, payload: {coins: data}})
+                        break;
+
+                    case "BUY_HINTS":
+
+                        window.parent.postMessage({type: msg, payload: {coins: data}})
+                        break;
+                    case "SPEND_CARD":
+                        window.parent.postMessage({type: msg, payload: {coins: data}})
+                        break;
+                    case "FINISH_GAME":
+
+                        window.parent.postMessage({type: msg, payload: {coins: data}})
+                        break;
+
+                    case "WIN_COINS":
+                        window.parent.postMessage({type: msg, payload: {coins: data}})
+                        break;
+                    case "SPEND_HINTS":
+                        window.parent.postMessage({type: msg, payload: {coins: data}})
+                        break;
+
+                    case "CHECK_REWARD":
+                        window.parent.postMessage({type: msg, payload: {coins: data}})
+                        break
+                }
+            }
+        }
+
+
+        lime.embed("SolitaireGame", "openfl-content", 0, 0, {parameters: {}});
+    });
+</script>
+
+</body>
+</html>

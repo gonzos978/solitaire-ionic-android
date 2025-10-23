@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+
+	<labels>
+		<label id="scoreLabel">Rezultat</label>
+		<label id="timeLabel">Vrijeme</label>
+		<label id="movesLabel">Potezi</label>
+		<label id="quitGameLabel">NAPUSTITI IGRU?</label>
+		<label id="infoGameLabel">INFO</label>
+		<label id="buyCoinsLabel">KUPI KARTU</label>
+		<label id="buyCoinsInfo1">IMAŠ {N} NOVČIĆA</label>
+		<label id="buyCoinsInfo2">JEDNA KARTA KOŠTA {N} NOVČIĆA</label>
+		<label id="buyHintsLabel">KUPI SAVJET</label>
+		<label id="buyHintsInfo">JEDAN SAVJET KOŠTA {N} NOVČIĆA</label>
+		<label id="alertLabel">UPOZORENJE</label>
+		<label id="settingsLabel">Postavke</label>
+		<label id="soundLabel">Zvuk</label>
+		<label id="themesLabel">Teme</label>
+		<label id="langLabel">Jezik</label>
+		<label id="helpLabel">Pomoć</label>
+		<label id="setLabel">Set</label>
+		<label id="backgroundLabel">POZADINE</label>
+		<label id="cardsLabel">KARTE</label>
+	</labels>
+
+	<help>
+		<item id="help_1">Kliknite na kartu da promijenite kartu.</item>
+		<item id="help_2">Kliknite na kartu u donjem špilu da je premjestite na željeno mjesto.</item>
+		<item id="help_3">Ako otkrijete sve karte, automatska igra će početi.</item>
+		<item id="help_4">Koristite dugme za poništavanje da vratite posljednji potez.</item>
+		<item id="help_5">Možete povlačiti karte između kolona.</item>
+		<item id="help_6">Kliknite na kartu da je automatski premjestite na odgovarajuću poziciju.</item>
+		<item id="help_7">Pobjedom svih temeljnih špilova završava igra.</item>
+		<item id="help_8">Koristite savjete (hints) da otkrijete moguće poteze.</item>
+		<item id="help_9">Promiješajte špil ili restartujte igru ako zapnete.</item>
+		<item id="help_10">Provjerite rezultat i tajmer na vrhu ekrana.</item>
+		<item id="help_11">Karte u temelju moraju biti sortirane po boji od Asa do Kralja.</item>
+		<item id="help_12">Stolovi (tableau) se mogu slagati u opadajućem redoslijedu i naizmjeničnim bojama.</item>
+	</help>
+
+
+	<messagges>
+		<msg id="qitPanelTxt">Da li stvarno želiš napustiti igru?</msg>
+		<msg id="noCoinsTxt">Nemaš dovoljno novčića.</msg>
+		<msg id="rewardMsg">Čestitamo!{NL}Dobio si {N} novčića.</msg>
+		<msg id="offlineMode">Offline režim aktiviran. Možete nastaviti igrati, ali napredak neće biti sačuvan dok se ne povežete na internet.</msg>
+	</messagges>
+
+	<end_labels>
+		<label id="endMoves">Potezi</label>
+		<label id="endTime">Vrijeme</label>
+		<label id="endScore">Rezultat</label>
+		<label id="endHiScore">Rekord</label>
+	</end_labels>
+
+	<buttons>
+		<button id="startBttLabel">START</button>
+		<button id="rewardBttLabel">DNEVNA NAGRADA</button>
+		<button id="newBttLabel">IGRAJ</button>
+		<button id="homeBttLabel">POČETNA</button>
+		<button id="buyBttLabel">KUPI</button>
+		<button id="quitBttLabel">IZLAZ</button>
+		<button id="yesBttLabel">DA</button>
+		<button id="noBttLabel">NE</button>
+		<button id="okBttLabel">OK</button>
+	</buttons>
+
+</data>

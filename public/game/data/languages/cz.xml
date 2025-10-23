@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+
+	<labels>
+		<label id="scoreLabel">Skóre</label>
+		<label id="timeLabel">Čas</label>
+		<label id="movesLabel">Tahy</label>
+		<label id="quitGameLabel">UKONČIT HRU?</label>
+		<label id="infoGameLabel">INFO</label>
+		<label id="infoGameLabel">信息</label>
+		<label id="buyCoinsLabel">Koupit kartu</label>
+		<label id="buyCoinsInfo1">Máš {N} mincí</label>
+		<label id="buyCoinsInfo2">Jedna karta stojí {N} mincí</label>
+		<label id="buyHintsLabel">Koupit nápovědu</label>
+		<label id="buyHintsInfo">Jedna nápověda stojí {N} mincí</label>
+		<label id="alertLabel">Upozornění</label>
+		<label id="settingsLabel">Nastavení</label>
+		<label id="soundLabel">Zvuk</label>
+		<label id="themesLabel">Témata</label>
+		<label id="langLabel">Jazyk</label>
+		<label id="helpLabel">Nápověda</label>
+		<label id="setLabel">Sada</label>
+		<label id="backgroundLabel">Pozadí</label>
+		<label id="cardsLabel">Karty</label>
+	</labels>
+
+	<help>
+		<item id="help_1">Klikněte na kartu pro změnu karty.</item>
+		<item id="help_2">Klikněte na kartu v dolním balíčku a přesuňte ji na požadované místo.</item>
+		<item id="help_3">Pokud odhalíte všechny karty, spustí se automatická hra.</item>
+		<item id="help_4">Použijte tlačítko zpět pro vrácení posledního tahu.</item>
+		<item id="help_5">Karty můžete přetahovat mezi sloupci (tableau).</item>
+		<item id="help_6">Kliknutím na kartu ji automaticky přesuňte do základu (foundation).</item>
+		<item id="help_7">Vyhráním všech základních balíčků dokončíte hru.</item>
+		<item id="help_8">Použijte nápovědy (hints) k zobrazení možných tahů.</item>
+		<item id="help_9">Zamíchejte balíček nebo restartujte hru, pokud uvíznete.</item>
+		<item id="help_10">Zkontrolujte skóre a časovač v horní části obrazovky.</item>
+		<item id="help_11">Karty v základu musí být seřazeny podle barvy od esa po krále.</item>
+		<item id="help_12">Sloupce (tableau) lze stavět v sestupném pořadí a střídavých barvách.</item>
+	</help>
+
+
+	<messagges>
+		<msg id="qitPanelTxt">Opravdu chceš ukončit hru?</msg>
+		<msg id="noCoinsTxt">Nemáš dostatek mincí.</msg>
+		<msg id="rewardMsg">Gratulujeme!{NL}Získáváš {N} mincí.</msg>
+		<msg id="offlineMode">Offline režim aktivován. Můžete pokračovat ve hře, ale postup nebude uložen, dokud nebudete online.</msg>
+	</messagges>
+
+	<end_labels>
+		<label id="endMoves">Tahy</label>
+		<label id="endTime">Čas</label>
+		<label id="endScore">Skóre</label>
+		<label id="endHiScore">Rekord</label>
+	</end_labels>
+
+	<buttons>
+		<button id="startBttLabel">START</button>
+		<button id="rewardBttLabel">Denní odměna</button>
+		<button id="newBttLabel">Hrát</button>
+		<button id="homeBttLabel">Domů</button>
+		<button id="buyBttLabel">Koupit</button>
+		<button id="quitBttLabel">Konec</button>
+		<button id="yesBttLabel">Ano</button>
+		<button id="noBttLabel">Ne</button>
+		<button id="okBttLabel">OK</button>
+	</buttons>
+
+</data>
