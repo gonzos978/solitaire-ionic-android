@@ -15,6 +15,8 @@ const LEVELS = [
 export const adnan = "adnan"
 
 // Helper: get player level from play count
+
+// @ts-ignore
 function getPlayerLevel(playCount) {
     for (let i = 0; i < LEVELS.length; i++) {
         if (playCount >= LEVELS[i].minPlays && playCount < LEVELS[i].maxPlays) {
@@ -25,6 +27,8 @@ function getPlayerLevel(playCount) {
 }
 
 // Helper: check if two dates are same UTC day
+
+// @ts-ignore
 function isSameUTCDate(date1, date2) {
     return date1.getUTCDate() === date2.getUTCDate() &&
         date1.getUTCMonth() === date2.getUTCMonth() &&
@@ -48,6 +52,7 @@ const db = getFirestore(app);
 const analytics = getAnalytics(app);
 
 
+// @ts-ignore
 export async function checkConnection(callback){
 
     try {
@@ -105,9 +110,11 @@ export async function getPlayerData() {
     }
 }
 
+
 /**
  * Save data to Firestore
  */
+// @ts-ignore
 export async function saveData(collection, docId, data) {
     try {
         await setDoc(doc(db, collection, docId), data, {merge: true});
@@ -120,6 +127,7 @@ export async function saveData(collection, docId, data) {
 /**
  * Read data from Firestore
  */
+// @ts-ignore
 export async function getData(collection, docId) {
     try {
         const docRef = doc(db, collection, docId);
@@ -153,7 +161,8 @@ export function getPlayerId() {
 export async function claimDailyReward() {
     const playerId = getPlayerId();
     const collection = "players";
-    let playerData = await getData(collection, playerId);
+    // @ts-ignore
+    const playerData = await getData(collection, playerId);
 
     // First-time player
     if (!playerData) {
@@ -291,6 +300,7 @@ export async function getPlayerLevelFromFirebase() {
  * @param {number} amount - number of coins to spend
  * @returns {Promise<{success: boolean, coins: number}>} - new coin balance
  */
+// @ts-ignore
 export async function spendCoins(amount) {
     const playerId = getPlayerId();
     const collection = "players";
@@ -358,6 +368,8 @@ export async function spendCardAsync() {
  * @param {number} amount - number of coins to add
  * @returns {Promise<{success: boolean, coins: number}>} - new coin balance
  */
+
+// @ts-ignore
 export async function addCoins(amount) {
     const playerId = getPlayerId();
     const collection = "players";

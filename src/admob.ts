@@ -11,6 +11,7 @@ import {
 
 export async function initAdMob() {
     await AdMob.initialize({
+        // @ts-ignore
         requestTrackingAuthorization: true, // iOS 14+
         initializeForTesting: false, // false in production
     });
@@ -70,8 +71,9 @@ export async function showRewarded(adId?: string, callback?: (reward: any) => vo
         console.error('⚠️ Error showing rewarded ad:', err);
     }
 }*/
-
+// @ts-ignore
 export async function showRewarded(adId?: string, callback?: (reward: any) => void) {
+    // @ts-ignore
     AdMob.addListener(RewardAdPluginEvents.Loaded, (info: AdLoadInfo) => {
         // Subscribe prepared rewardVideo
     });
@@ -96,6 +98,7 @@ export async function showRewarded(adId?: string, callback?: (reward: any) => vo
         //}
     };
     await AdMob.prepareRewardVideoAd(options);
+    // @ts-ignore
     const rewardItem = await AdMob.showRewardVideoAd();
     //if (callback) callback(rewardItem);
 

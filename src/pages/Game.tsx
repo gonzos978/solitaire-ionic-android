@@ -286,6 +286,7 @@ export default function GamePage() {
     const isDebug = false;
 
 
+
     return (
         <div style={{ width: "100vw", height: "100vh" }}>
             <iframe
@@ -297,7 +298,8 @@ export default function GamePage() {
             <button onClick={() => sendMessageToGame("ADD_COINS", { amount: 100 })}>
                 Add 100 Coins
             </button>
-            {isDebug && <DebugInfo info={debugInfo} />}
+
+            {isDebug && <DebugInfo infoM={debugInfo} />}
         </div>
     );
 }
